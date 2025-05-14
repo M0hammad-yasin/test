@@ -1,0 +1,72 @@
+.Carousel {
+  background-color: rgba(0, 0, 0, 0.57);
+  width: 70rem;
+  height: 34rem;
+  margin-left: 5%;
+  border-radius: 20px;
+  margin-top: 7px;
+}
+
+.cards-container {
+  display: flex;
+}
+
+.carousel-left-btn,
+.carousel-right-btn {
+  height: 30rem;
+}
+
+@media (max-width: 600px) {
+  .Carousel {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+
+  .cards-container {
+    flex-direction: column;
+  }
+
+  .carousel-left-btn,
+  .carousel-right-btn {
+    height: auto;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .Carousel {
+    width: 80%;
+    height: auto;
+    margin-left: 5%;
+    margin-top: 1rem;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .carousel-left-btn,
+  .carousel-right-btn {
+    height: auto;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Carousel {
+    width: 70rem;
+    height: 34rem;
+    margin-left: 5%;
+    margin-top: 7px;
+  }
+
+  .cards-container {
+    flex-direction: row;
+  }
+
+  .carousel-left-btn,
+  .carousel-right-btn {
+    height: 30rem;
+  }
+}

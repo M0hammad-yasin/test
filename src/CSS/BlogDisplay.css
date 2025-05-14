@@ -1,0 +1,117 @@
+.Display-box {
+  width: 73.5rem;
+  height: 50rem;
+  background-color: rgba(0, 0, 0, 0.57);
+  border-radius: 13px;
+  padding: 2rem;
+  box-sizing: border-box;
+  margin-top: 2rem;
+}
+
+.display-card {
+  margin-left: 3rem;
+  width: 65rem;
+  height: 40rem;
+}
+
+.display-card-img {
+  width: 65rem;
+  height: 25rem;
+}
+
+.display-card-body {
+  width: 65rem;
+  overflow: auto;
+}
+
+.delete-blog-btn {
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+@media (max-width: 600px) {
+  .Display-box {
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+
+  .display-card {
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  .display-card-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .display-card-body {
+    width: 100%;
+  }
+
+  .delete-blog-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .Display-box {
+    width: 90%;
+    height: auto;
+    padding: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .display-card {
+    margin-left: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .display-card-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .display-card-body {
+    width: 100%;
+  }
+
+  .delete-blog-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .Display-box {
+    width: 73.5rem;
+    height: 50rem;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+
+  .display-card {
+    margin-left: 3rem;
+    width: 65rem;
+    height: 40rem;
+  }
+
+  .display-card-img {
+    width: 65rem;
+    height: 25rem;
+  }
+
+  .display-card-body {
+    width: 65rem;
+  }
+
+  .delete-blog-btn {
+    margin-top: 1rem;
+    margin-left: 5rem;
+  }
+}

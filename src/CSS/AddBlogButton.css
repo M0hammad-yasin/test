@@ -1,0 +1,32 @@
+.addBlogBtn {
+  margin-left: 40rem;
+  margin-top: 3rem;
+}
+
+@media (max-width: 600px) {
+  .addBlogBtn {
+    margin-left: 0;
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .addBlogBtn {
+    margin-left: 0;
+    margin-top: 2.5rem;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .addBlogBtn {
+    margin-left: 40rem;
+    margin-top: 3rem;
+    width: auto;
+  }
+}

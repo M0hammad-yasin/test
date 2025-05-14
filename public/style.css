@@ -1,0 +1,96 @@
+.main {
+  background: rgba(0, 0, 0, 0.27)
+    url("assets/background-images/background-body.png");
+}
+#root {
+  margin: 15px;
+}
+.rightSidebar,
+.plantGrowth,
+.left-sidebar,
+.envConditions,
+.factors,
+.durationProgress,
+.growthStats,
+.navbar {
+  background: rgba(255, 255, 255, 0.57)
+    url("assets/background-images/components-bg.png") no-repeat;
+  background-size: cover;
+  border-radius: 13px;
+  color: rgba(255, 255, 255, 1);
+}
+.left-sidebar ul li {
+  padding-bottom: 0px;
+}
+.left-sidebar ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+}
+.left-sidebar ul li a:hover {
+  color: rgba(0, 222, 163, 1);
+}
+.left-sidebar ul li a .active {
+  color: rgba(0, 222, 163, 1);
+}
+.logo hr {
+  border: 1px solid rgba(255, 255, 255, 1) !important;
+}
+.logo span {
+  color: rgba(255, 255, 255, 1);
+  font-weight: bolder;
+}
+.mainFeatures,
+.factors,
+.growthStats,
+.durationProgress,
+.stats {
+  margin-top: 15px;
+}
+.sprinkler,
+.countDownTimer,
+.timerCompletes,
+.plantYield {
+  border-bottom: 2px solid rgba(255, 255, 255, 1);
+}
+
+.time-notification {
+  background-color: red;
+  padding: 0.2em 0.6em;
+  border-radius: 50%;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 0.8em;
+  line-height: 1;
+  vertical-align: top;
+}
+.canvasjs-chart-credit {
+  display: none;
+}
+
+.growthStats {
+  height: 245px;
+}
+
+/* Authentication pages  */
+
+.authenticate {
+  background: rgba(0, 0, 0.3, 0.27)
+    url("assets/background-images/Background1.jpg");
+  height: 43rem;
+  border-radius: 13px;
+}
+
+.home,
+.register,
+.login {
+  background-color: rgba(0, 0, 0.3, 0.7);
+  border-radius: 13px;
+  color: rgba(255, 255, 255, 0.9);
+  margin-top: 7rem;
+}
+
+.modal-dark,
+.offCanvas {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 13px;
+}

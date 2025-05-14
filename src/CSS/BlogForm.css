@@ -1,0 +1,67 @@
+.blog-form {
+  margin-top: 2rem;
+  background-color: rgba(0, 0, 0, 0.57);
+  border-radius: 13px;
+  width: 60.5rem;
+  height: 38rem;
+  margin-left: 7rem;
+}
+
+.fields {
+  margin-left: 7rem;
+}
+
+.textarea {
+  height: 350px;
+}
+
+@media (max-width: 600px) {
+  .blog-form {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    padding: 1rem;
+  }
+
+  .fields {
+    margin-left: 0;
+  }
+
+  .textarea {
+    height: 150px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .blog-form {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    padding: 1.5rem;
+  }
+
+  .fields {
+    margin-left: 1rem;
+  }
+
+  .textarea {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .blog-form {
+    width: 60.5rem;
+    height: 42rem;
+    margin-left: 7rem;
+    padding: 2rem;
+  }
+
+  .fields {
+    margin-left: 7rem;
+  }
+
+  .textarea {
+    height: 300px;
+  }
+}
